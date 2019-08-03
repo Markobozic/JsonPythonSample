@@ -34,7 +34,7 @@ def main():
         subprocess.run(["mkdir", "target"])
 
     if flag is 0:
-        model = Model(made_with_python=True, descending=[9, 8, 7, 6, 5, 4, 3, 2, 1, 0], description="Made with Python")
+        model = Model(made_with_python=True, backwards_in_python=[9, 8, 7, 6, 5, 4, 3, 2, 1, 0], description="Made with Python")
         write_json_to_file(model, file_path)
     elif flag is 1:
         read_json_from_file(file_path)
