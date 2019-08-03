@@ -11,7 +11,7 @@ The program requires 2 parameters:
 
 `2: -f target/out.json NOTE** if the target directory does not exist, the application will make it for you`
 
-# Sample Configuration
+# Sample Configuration (PyCharm)
 
 ![sample config](img/config.png)
 
